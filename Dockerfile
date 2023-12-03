@@ -8,7 +8,7 @@ FROM ubuntu:22.04 AS final
 
 COPY --from=base /usr/lib/locale/locale-archive /usr/lib/locale/locale-archive
 
-C# Add files.
+# Add files.
 ADD root/.bashrc /root/.bashrc
 ADD root/.gitconfig /root/.gitconfig
 ADD root/.scripts /root/.scripts
